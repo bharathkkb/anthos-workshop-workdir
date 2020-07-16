@@ -4,6 +4,5 @@ module "asm" {
   cluster_name                      = module.stage.name
   location                          = module.stage.location
   cluster_endpoint                  = module.stage.endpoint
-  skip_gcloud_download              = false
   use_tf_google_credentials_env_var = false
 }
